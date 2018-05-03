@@ -1,0 +1,11 @@
+P>(Q>P)
+(P>(Q>G))>((P>Q)>(P>G))
+(P>Q)>((P>~Q)>~P)
+~~P>P
+(P&Q)>P
+(P&Q)>Q
+P>(Q>(P&Q))
+P>(P|Q)
+Q>(P|Q)
+(P>G)>((Q>G)>((P|Q)>G))
+deduction
