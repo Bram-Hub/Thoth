@@ -1,12 +1,17 @@
-THOTH V1.0
+# THOTH
+## Authors
+2018:
+Matthias Krutz
+
+## About
 Requirements 
 	Python 2.7
 Operation:
 	Line Checkbox: used in executing modus ponens.
 
-	Premise Entry Field: input a sentence directly. Only available in the first line of the proof or a line created by ‘Add Premise’, for readabilities sake. The value in the field is set to lowercase (for parsing reasons) and is locked after either ‘Add premise’ or ‘Add step’.
+	Premise Entry Field: input a sentence directly. Only available in the first line of the proof or a line created by â€˜Add Premiseâ€™, for readabilities sake. The value in the field is set to lowercase (for parsing reasons) and is locked after either â€˜Add premiseâ€™ or â€˜Add stepâ€™.
 
-	Add Premise: Add a new “premise line”. Only available in the first line of the proof or a line created by ‘Add Premise’. If successful locks the current line.
+	Add Premise: Add a new â€œpremise lineâ€. Only available in the first line of the proof or a line created by â€˜Add Premiseâ€™. If successful locks the current line.
 
 	Add Step: executes the operation chosen from the Step Dropdown Menu.
 
@@ -14,11 +19,11 @@ Operation:
 
 		modus ponens: attempts to execute modus ponens on the lines with their Line Checkbox checked. The > symbol stands in for implication. If the wrong number of lines is selected or modus ponens cannot be used on the selected lines the execution will fail and nothing will happen. Order does not matter.
 
-		deduction: opens an input box for the sentence to be deduced. All proceeding sentences will only have “modus ponens” and “end” in the Step Dropdown Menu.
+		deduction: opens an input box for the sentence to be deduced. All proceeding sentences will only have â€œmodus ponensâ€ and â€œendâ€ in the Step Dropdown Menu.
 
-		“end”: ends the current deduction. The user will be asked where to save the generated proof
+		â€œendâ€: ends the current deduction. The user will be asked where to save the generated proof
 
-		“Q.E.D”: hides Add Step and the Step Dropdown Menu, to more easily view the proof, this change is purely visual and is not saved
+		â€œQ.E.Dâ€: hides Add Step and the Step Dropdown Menu, to more easily view the proof, this change is purely visual and is not saved
 
 		Axioms: all other options in the Step Dropdown Menu call different axioms. Opens an input box for the sentences to be used in the axioms.
 
